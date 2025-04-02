@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+/* navgation bar */
+.navigationBar{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icons a:hover{
+    text-decoration: underline;
+    color: rgb(236, 102, 19);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-thickness:3px;
+} 
+.name a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name #su{
+    color: rgb(236, 102, 19);
+}
+.contactMe{
+    height: 45% ;
+    width: 6%;
+}
+.contactMe button{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+}
+.contactMe button:hover{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(236, 102, 19);
+}
+
+/* portfolio */
+
+#portfolio{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(248, 246, 246);
+}
+.portImg{
+    width: 22vw;
+    height: 55vh;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 7px solid rgb(192, 88, 18);
+}
+.portImg:hover{
+    width: 25vw;
+    height: 60vh;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 5px rgb(236, 102, 19);
+}
+.portImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portInfo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 45%;
+    justify-content: space-around;
+    gap: 20px;
+}
+.intro .suraj{
+    color: rgb(236, 102, 19);
+}
+.intro{
+    display: flex;
+}
+.forH{
+    display: flex;
+    flex-direction: column;
+}
+.paragraph{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+.hireAndExperianceButton{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    gap: 20px;
+}
+.hireAndExperianceButton #hireMe{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+    font-size: 14px;
+}
+.hireAndExperianceButton #hireMe:hover{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 14px;
+}
+.hireAndExperianceButton #experience{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(236, 102, 19);
+    color: white;
+    border-radius: 6px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 14px;
+}
+.hireAndExperianceButton #experience:hover{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 102, 19);
+    border-radius: 6px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+/* services */
+
+#Service{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 94vh;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.Me{
+    color: rgb(236, 102, 19);
+}
+.portImgInServices{
+    width: 22vw;
+    height: 55vh;
+    border-radius: 50%;
+    overflow: hidden;
+    /* box-shadow: h-offset v-offset blur-radius spread-radius color; */
+    box-shadow: 0px 0px 10px 5px rgb(236, 102, 19);
+}
+.portImgInServices img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ServiceInfo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 45%;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+}
+/* footer */
+.footer{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.insta:hover{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+.linkIn:hover{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.github:hover{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+.phone:hover{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+/* Experience */
+#Experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+}
+#experienceContent{
+    color: aliceblue;
+}
+
+/* Project */
+#Project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+}
+#experience{
+    color: blue;
+}
+
+/* Eduction */
+#Eduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+}
